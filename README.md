@@ -12,6 +12,30 @@ Product catalog with basic cart
 - Async/Await
 
 
+## Usage
+
+1. Home view (Products)
+- Tap on each product to show detail
+- Tap on plus button to add one product into cart
+- Tap on tree dots button to show categories
+- Tap on cart to shor cart view
+
+2. Categories view
+- Tap on each category to search products
+- Tap in selected category to deselect, and load all product
+- Tap on close button to close modal
+
+3. Detail view
+- Tap on plus button to add one product into cart
+- Tap on close button to close modal
+- Rating will be calculated automatically and rounded up (3.5+ will be 4 stars)
+
+4. Cart view
+- Tap on delete will remove item from cart
+- Tap on stepper will increment or decrement item quantity (1-10 allowed)
+- Total will be calculated automatically
+- No action for purchase button
+
 ## Requirements
 
 - iOS 17
