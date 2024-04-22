@@ -39,14 +39,29 @@ struct ProductsView: View {
                  ScrollView(.vertical) {
                      LazyVGrid(columns: gridItems, spacing: 10) {
                          ForEach(Array((productsViewModel.products ?? []).enumerated()), id: \.1) { index, product in
-                             ProductGridView(product: product)
+                             /*ProductGridView(product: product)
                                  .frame(width: index == 0 ? 310 : 150, height: 200)
                                  .onTapGesture {
                                      selectedProduct = product.id ?? 0
                                      productDetailViewModel.showProductDetail.toggle()
                                  }
-
-                             if index == 0 { Color.clear }
+                              */
+                             if index == 0 {
+                                 ProductHighlighedGridView(product: product)
+                                     .frame(width: 310, height: 200)
+                                     .onTapGesture {
+                                         selectedProduct = product.id ?? 0
+                                         productDetailViewModel.showProductDetail.toggle()
+                                     }
+                                 Color.clear
+                             } else {
+                                 ProductGridView(product: product)
+                                     .onTapGesture {
+                                         selectedProduct = product.id ?? 0
+                                         productDetailViewModel.showProductDetail.toggle()
+                                     }
+                                     .frame(width: 150, height: 200)
+                             }
                          }
                      }
                  }

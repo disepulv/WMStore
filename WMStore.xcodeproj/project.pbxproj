@@ -21,6 +21,7 @@
 		BF59D98B2BD31DD30078BCC0 /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59D98A2BD31DD30078BCC0 /* ProductGridView.swift */; };
 		BF59D98D2BD481AC0078BCC0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59D98C2BD481AC0078BCC0 /* MainView.swift */; };
 		BF59D98F2BD482960078BCC0 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59D98E2BD482960078BCC0 /* CartView.swift */; };
+		BF8041542BD6B7EF006940C5 /* ProductHighlighedGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8041532BD6B7EF006940C5 /* ProductHighlighedGridView.swift */; };
 		BF85795C2BD4926B00A8781E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85795B2BD4926B00A8781E /* ProductDetailView.swift */; };
 		BF85795E2BD494A400A8781E /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85795D2BD494A400A8781E /* ProductDetailViewModel.swift */; };
 		BF8579602BD5571B00A8781E /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85795F2BD5571B00A8781E /* CategoriesViewModel.swift */; };
@@ -56,6 +57,7 @@
 		BF59D98A2BD31DD30078BCC0 /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
 		BF59D98C2BD481AC0078BCC0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BF59D98E2BD482960078BCC0 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BF8041532BD6B7EF006940C5 /* ProductHighlighedGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHighlighedGridView.swift; sourceTree = "<group>"; };
 		BF85795B2BD4926B00A8781E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		BF85795D2BD494A400A8781E /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
 		BF85795F2BD5571B00A8781E /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				BF59D98C2BD481AC0078BCC0 /* MainView.swift */,
 				BF85795B2BD4926B00A8781E /* ProductDetailView.swift */,
 				BF59D98A2BD31DD30078BCC0 /* ProductGridView.swift */,
+				BF8041532BD6B7EF006940C5 /* ProductHighlighedGridView.swift */,
 				BF15F0242BD2E0F3001E0DA2 /* ProductsView.swift */,
 			);
 			path = Views;
@@ -301,6 +304,7 @@
 				BF85795C2BD4926B00A8781E /* ProductDetailView.swift in Sources */,
 				BF59D9892BD309DE0078BCC0 /* ProductsViewModel.swift in Sources */,
 				BF376BE82BD5727400696B04 /* CartGridView.swift in Sources */,
+				BF8041542BD6B7EF006940C5 /* ProductHighlighedGridView.swift in Sources */,
 				BF59D9862BD2FFA40078BCC0 /* CategoriesView.swift in Sources */,
 				BF15F0232BD2E0F3001E0DA2 /* WMStoreApp.swift in Sources */,
 				BF8579602BD5571B00A8781E /* CategoriesViewModel.swift in Sources */,
