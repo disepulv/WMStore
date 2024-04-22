@@ -6,6 +6,9 @@
 	objectVersion = 56;
 	objects = {
 
+		BF59D97F2BD2E2BB0078BCC0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59D97E2BD2E2BB0078BCC0 /* Product.swift */; };
+		BF59D9812BD2E2DE0078BCC0 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59D9802BD2E2DE0078BCC0 /* Rating.swift */; };
+		BF8579622BD5634E00A8781E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8579612BD5634E00A8781E /* Cart.swift */; };
 
 /* Begin PBXContainerItemProxy section */
 		BF0DB8E52BD5E3AC00778B22 /* PBXContainerItemProxy */ = {
@@ -17,6 +20,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
+		BF59D97E2BD2E2BB0078BCC0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BF59D9802BD2E2DE0078BCC0 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		BF8579612BD5634E00A8781E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF0DB8DE2BD5E3AC00778B22 /* Frameworks */ = {
@@ -67,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				BF15F0262BD2E0F5001E0DA2 /* Assets.xcassets */,
+				BF59D97D2BD2E18E0078BCC0 /* Model */,
 				BF15F0282BD2E0F5001E0DA2 /* Preview Content */,
 				BF15F0222BD2E0F3001E0DA2 /* WMStoreApp.swift */,
 			);
@@ -79,6 +86,16 @@
 				BF15F0292BD2E0F5001E0DA2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF59D97D2BD2E18E0078BCC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF59D97E2BD2E2BB0078BCC0 /* Product.swift */,
+				BF59D9802BD2E2DE0078BCC0 /* Rating.swift */,
+				BF8579612BD5634E00A8781E /* Cart.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF59D9812BD2E2DE0078BCC0 /* Rating.swift in Sources */,
+				BF8579622BD5634E00A8781E /* Cart.swift in Sources */,
+				BF59D97F2BD2E2BB0078BCC0 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
