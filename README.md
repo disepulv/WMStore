@@ -4,8 +4,13 @@ Product catalog with basic cart
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
-SwiftUI
-Cart with local storage (SwiftData)
+## Stack
+
+- MVVM
+- SwiftUI
+- SwiftData
+- Async/Await
+
 
 ## Requirements
 
