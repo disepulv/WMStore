@@ -36,17 +36,6 @@ struct MainView: View {
                 }
                 .tag(2)
         }
-        //.navigationTitle(selection == 1 ? "My super App" : "Cart")
-        /*.navigationTitle("My super App")
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    viewModel.showCategories.toggle()
-                } label: {
-                    Image(systemName: "ellipsis.circle")
-                }
-            }
-        }*/
     }
 }
 

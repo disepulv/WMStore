@@ -22,9 +22,12 @@ struct CartView: View {
     var body: some View {
         ZStack {
             VStack {
-                Text("Cart")
-                    .font(.largeTitle)
-                    .bold()
+                HStack {
+                    Text("Cart")
+                        .font(.largeTitle)
+                        .bold()
+                    Spacer()
+                }
 
                 List {
                     ForEach(cart, id: \.self) { cart in
@@ -34,6 +37,7 @@ struct CartView: View {
                 }
 
                 Text("Total: $\(String(format: "%.2f", total)) CLP")
+                    .font(.largeTitle)
                     .bold()
 
                 Button("Purchase") {

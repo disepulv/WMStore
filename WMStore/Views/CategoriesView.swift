@@ -37,7 +37,7 @@ struct CategoriesView: View {
                     }
                 }
             }
-            
+
             if viewModel.categories == nil {
                 ProgressView {
                     Text("Loading...")
@@ -45,12 +45,20 @@ struct CategoriesView: View {
             }
             
         }
-        .padding()
         .onAppear {
             viewModel.fetchCategories()
         }
         .navigationTitle("Categories")
         .navigationBarTitleDisplayMode(.large)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    showCategories = false
+                } label: {
+                    Image(systemName: "xmark.circle")
+                }
+            }
+        }
     }
 }
 

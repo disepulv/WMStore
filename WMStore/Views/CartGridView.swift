@@ -64,10 +64,7 @@ struct CartGridView: View {
                                 cart.quantity = newValue
                             }
                     }
-                    .padding()
                 }
-
-
             }
             .padding()
         }
